@@ -16,6 +16,19 @@ module.exports = {
         serif: ['var(--aw-font-serif, ui-serif)', ...defaultTheme.fontFamily.serif],
         heading: ['var(--aw-font-heading, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        // Adjusted font sizes for writing Chinese
+        'xs': '.625rem',   // Extra small
+        'sm': '.75rem',    // Small
+        'base': '.875rem', // Base
+        'lg': '1rem',      // Large
+        'xl': '1.125rem',  // Extra large
+        '2xl': '1.25rem',  // 2 times extra large
+        '3xl': '1.5rem',   // 3 times extra large
+        '4xl': '1.875rem', // 4 times extra large
+        '5xl': '2.25rem',  // 5 times extra large
+        '6xl': '3rem',     // 6 times extra large
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
