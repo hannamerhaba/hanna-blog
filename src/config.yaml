@@ -74,9 +74,9 @@ ui:
   tokens:
     default:
       fonts:
-        sans: InterVariable
-        serif: InterVariable
-        heading: InterVariable
+        sans: Noto Sans TC Variable
+        serif: Noto Sans TC Variable
+        heading: Noto Sans TC Variable
       colors:
         default: rgb(16 16 16)
         heading: rgb(0 0 0)
