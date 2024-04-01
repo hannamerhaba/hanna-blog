@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: MJ
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
